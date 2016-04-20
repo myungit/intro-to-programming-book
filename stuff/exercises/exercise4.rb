@@ -1,5 +1,5 @@
 def execute(&block)
-  block.call 
+  block.call
 end
 
-execute { puts "Hello from inside the execute method!" }
+execute { puts 'Hello from inside the execute method!' }

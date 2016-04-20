@@ -3,7 +3,7 @@
 # result - 2 arrays, the original and the one created
 # use p to print
 
-arr = [2,4,3,1,2,5,3]
+arr = [2, 4, 3, 1, 2, 5, 3]
 new_arr = []
 
 arr.map { |n| new_arr << n + 2 }

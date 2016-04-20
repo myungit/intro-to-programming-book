@@ -2,12 +2,12 @@
 
 def has_a_b?(string)
   if /b/.match(string)
-    puts "We have a match!"
+    puts 'We have a match!'
   else
-    puts "No match here."
+    puts 'No match here.'
   end
 end
 
-puts "What word do you want to check for character 'b'?"
+puts 'What word do you want to check for character \'b\'?'
 string = gets.chomp
 has_a_b?(string)

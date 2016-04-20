@@ -1,6 +1,6 @@
 # what is value of a,b,c?
 
-string = "Welcome to America!"
+string = 'Welcome to America!'
 
 a = string[6]
 b = string[11]

@@ -1,12 +1,8 @@
-#prints 'example' from array
+# prints 'example' from array
 
-arr = [["test", "hello", "world"], ["example", "mem"]]
-
+arr = [%w(test hello world), %w(example mem)]
 arr = arr.flatten
 
 arr.select do |str|
-  if str == "example"
-    puts str
-  end
+  if str == 'example' then puts str end
 end
-

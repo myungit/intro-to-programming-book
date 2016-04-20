@@ -1,8 +1,8 @@
 # optional_parameters.rb
 
-def greeting(name = "", options = {})
+def greeting(name = '', options = {})
   if name.empty?
-    puts "Please write your name"
+    puts 'Please write your name'
   elsif options.empty?
     puts "Hi my name is #{name}"
   else
@@ -11,7 +11,7 @@ def greeting(name = "", options = {})
 end
 
 greeting()
-greeting("myung")
-greeting("Myng", age: 62, city: "Madrid")
-greeting("",age: 123, city: 55)
-greeting("Myung", year:1993)
+greeting('myung')
+greeting('Myng', age: 62, city: 'Madrid')
+greeting('', age: 123, city: 55)
+greeting('Myung', year: 1993)

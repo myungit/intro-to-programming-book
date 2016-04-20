@@ -2,9 +2,9 @@
 # prints out a greeting message
 
 def greeting(name)
-  "Hello #{name}! How are you doing?"
+  'Hello #{name}! How are you doing?'
 end
 
-puts "What is your name? "
+puts 'What is your name? '
 name = gets.chomp
 puts greeting(name)

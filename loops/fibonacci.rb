@@ -8,6 +8,6 @@ def fibonacci(number)
   end
 end
 
-puts "please type a number"
+puts 'please type a number'
 number = gets.chomp.to_i
 puts fibonacci(number)

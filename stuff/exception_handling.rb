@@ -3,25 +3,25 @@
 names = ['bob', 'joe', 'steve', nil, 'frank']
 
 names.each do |name|
-  begin 
-    #perform some dangerous operation
+  begin
+    # perform some dangerous operation
     puts "#{name}'s name has #{name.length} letters in it."
   rescue
-    #do this if operation fails
-    #for example, log the error
-    puts "Something went wrong!:("
+    # do this if operation fails
+    # for example, log the error
+    puts 'Something went wrong!:('
   end
 end
 
 # inline exception
-puts "-----------------------------------"
+puts '-----------------------------------'
 zero = 0
-puts "Before each call"
-zero.each{ |element| puts element } rescue puts "Can't do that!"
-puts "After each call"
+puts 'Before each call'
+zero.each { |element| puts element } rescue puts 'Can\'t do that!'
+puts 'After each call'
 
 # rescuing pre-existing errors
-puts "-----------------------------------"
+puts '-----------------------------------'
 
 def divide(number, divisor)
   begin
@@ -34,5 +34,3 @@ end
 puts divide(16, 4)
 puts divide(4, 0)
 puts divide(14, 7)
-
-

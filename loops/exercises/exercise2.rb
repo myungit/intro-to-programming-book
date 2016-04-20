@@ -3,9 +3,9 @@
 x = ""
 
 
-while x != "STOP" do 
-  puts "Write STOP if you want to STOP"
+while x != 'STOP' do 
+  puts 'Write STOP if you want to STOP'
   x = gets.chomp
 end
 
-puts "See you again!"
+puts 'See you again!'

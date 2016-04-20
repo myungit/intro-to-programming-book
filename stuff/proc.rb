@@ -4,7 +4,7 @@ talk = Proc.new do |name|
   puts "I am talking to #{name}."
 end
 
-talk.call "Myung" # can also be talk.("Myung")
+talk.call 'Myung' # can also be talk.("Myung")
 
 # now passing_proc.rb
 
